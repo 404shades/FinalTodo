@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.rohanmalik.finaltodo.AddDetails">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:src="@drawable/gun"
+        android:scaleType="centerCrop"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Set Title"
+        android:textAlignment="center"
+        android:id="@+id/EditTitle"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/DatePicker"
+        android:hint="Set Date"
+        android:textAlignment="center"
+        android:focusable="false"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAlignment="textStart"
+        android:id="@+id/spinn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/buttonsubmit"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/buttonSubmit"
+        />
+
+</LinearLayout>
